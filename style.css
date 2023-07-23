@@ -1,0 +1,46 @@
+body{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    /* background-color: green;  */
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.left{
+    display: flex;
+    align-items: center;
+   
+}
+
+.logo{
+   display: flex;
+  gap: 0;
+}
+
+.info{
+    margin-left: 10px;
+}
+
+.info>h3{
+    font-weight: 100;
+}
+
+.menu>a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+
+
+.icons>img{
+    padding: 10px;
+}
