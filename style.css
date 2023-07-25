@@ -71,6 +71,10 @@ body{
 
 }
 
+/* 
+Landing kısmında üst ve alt tarafa biraz padding verildi (8vh)
+*/
+
 .main-left{
     margin-top: 5px;
     background-image: url(./img/arkaplan.png);
@@ -79,6 +83,7 @@ body{
     background-size: cover;
     width: 100%;
     height: 100vh;
+    padding: 8vh 0 8vh 0;
 }
 
 .main-left>h1{
@@ -144,15 +149,22 @@ body{
     font-weight: 600;
 }
 
+/* 
+Learn how... ile başlayan metin ve Learn More butonu aynı hizada olmalı. 
+Bu yüzden justify-content: center yerine start olarak güncellendi. Learn More
+butonunun font-size'ı güncellendi
+*/
+
 .under{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     margin-top: 20px;
-    
+    font-size: 18px
 }
 
-.under>.icon>img{
+/* Bu kısımdaki img'i kapsayan div silindi */
+.under > img{
     margin-left: 20px;
     height: 30px;
 }
