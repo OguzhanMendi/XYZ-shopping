@@ -166,7 +166,9 @@ body{
     justify-content: space-between;
     align-items: center;
     font-size: 20px;
-    padding: 8vh;
+    /* padding: 8vh; Böyle Padding verilirse Hizlama Yanlış olur. */
+    padding-top: 8vh;
+    padding-bottom: 8vh;
     box-sizing: border-box;
     
 }
